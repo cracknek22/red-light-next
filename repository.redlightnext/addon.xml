@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.redlightnext" name="Red Light Next Repository" version="1.0.0" provider-name="RedLightNext">
+    <extension point="xbmc.addon.repository" name="Red Light Next Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/cracknek22/red-light-next/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/cracknek22/red-light-next/main/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/cracknek22/red-light-next/main/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Red Light Next Repository</summary>
+        <description lang="en_GB">Official repository for Red Light Next Kodi add-on.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

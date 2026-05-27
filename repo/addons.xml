@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.redlightnext" name="Red Light Next" version="0.1.0" provider-name="RedLightNext">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Red Light Next - Safe rebuild of Red Light</summary>
+        <description lang="en_GB">A secure, testable rebuild of the Red Light Kodi add-on with hardened updater, typed settings, and safe scraping.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://github.com/cracknek22/red-light-next</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.redlightnext" name="Red Light Next Repository" version="1.0.0" provider-name="RedLightNext">
+    <extension point="xbmc.addon.repository" name="Red Light Next Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/cracknek22/red-light-next/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/cracknek22/red-light-next/main/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/cracknek22/red-light-next/main/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Red Light Next Repository</summary>
+        <description lang="en_GB">Official repository for Red Light Next Kodi add-on.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
